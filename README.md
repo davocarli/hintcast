@@ -86,3 +86,12 @@ TypeError: num is not of type <class 'int'>
 >>> add_two(3, 3)
 TypeError: text is not of type <class 'str'>
 ```
+
+## Future Development Plans
+- Test support for all primitive types
+- Add support for checking function return type hints
+- Add support for built-in non-primitive data structures such as arrays, lists, etc.
+- Add support for hinting of types within lists, dictionaries, etc.
+- Add ability to enforce typing project-wide
+
+When all of the functionality above has been implemented and tested, the version number will be incremented to 1.0.0 and this project will leave beta status.

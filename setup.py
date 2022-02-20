@@ -3,13 +3,12 @@ from distutils.core import setup
 setup(
     name = 'hintcast',
     packages = ['hintcast'],
-    version = '1.0',
+    version = '0.1.0',
     license = 'MIT',
     description = 'Decorators that allow for automatic type-casting of arguments for a function or strict enforcement of type hints.',
     author = 'David Carli-Arnold',
     author_email = 'davocarli@gmail.com',
     url = 'https://github.com/davocarli/hintcast',
-    download_url = 'https://github.com/davocarli/hintcast',
     keywords = ['casting', 'typecast', 'type-cast', 'type-hints', 'hints', 'types', 'python', 'decorator'],
     install_requires = [],
     classifiers = [
