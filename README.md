@@ -1,6 +1,10 @@
 # hintcast
 Decorators that allow for automatic type-casting of arguments for a function or strict enforcement of type hints.
 
+## Installation Instructions
+hintcast is uploaded to [PyPI](https://pypi.org/project/hintcast/0.1.0/) and can be installed using
+`pip install hintcast`
+
 ## Usage Summary
 Import whatever decorators you want with an import statement like `from hintcast import cast_hints, strict_hints`.
 
